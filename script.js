@@ -26,7 +26,7 @@ module.exports = new Script({
     },
     
     test: {
-        prompt: (bot) => bot.say('Talk about something else now.')
+        prompt: (bot) => bot.say('Talk about something else now.'),
         receive: (bot, message) => {
             if (message.text.indexOf("weather") > 0) {
                 bot.say(`The weather where you are is... I don't know.`);
