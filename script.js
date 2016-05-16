@@ -32,7 +32,7 @@ module.exports = new Script({
             }
             return bot.then(() => 'finish');
         }
-    }
+    },
 
     finish: {
         receive: (bot, message) => {
